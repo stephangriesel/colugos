@@ -156,9 +156,13 @@ a:active {
 	
 }
 
-.logo img {
-	height:40px;
-	width:90px;
+.logotop {
+	clear:both;
+	float:left;
+	max-width: 20%;
+    height: auto;
+    margin: 30px 5px 0px 0px;
+    width:20%;
 }
 
 .full-width-top h1 {
@@ -168,7 +172,7 @@ a:active {
 
 .logo {
 	font-family: 'audiowideregular';
-	font-size:40px;
+	/* font-size:40px; */
 	margin:0;
 	padding-top:20px;
 }
