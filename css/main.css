@@ -114,7 +114,7 @@ html {
 	font-family: 'Nunito Sans', sans-serif;
 	font-size:1em;
 	margin: auto;
-	max-width:1200px;
+	max-width:1400px;
 	width:100%;
 }
 
@@ -151,7 +151,7 @@ a:active {
 	float:left;
 	background-image: url('../img/header6.jpeg') ;
 	background-size: cover; 
-	height:auto;
+	height:400px;
 	width:100%;
 	
 }
@@ -159,7 +159,7 @@ a:active {
 .logotop {
 	clear:both;
 	float:left;
-	max-width: 20%;
+	/*max-width: 20%;*/
     height: auto;
     margin: 30px 5px 0px 0px;
     width:20%;
@@ -261,26 +261,6 @@ nav ul li {
 	width:60%; */
 }
 
-/* Header Text */
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -361,26 +341,189 @@ nav ul li {
    Modify as content requires.
    ========================================================================== */
 
-/* ----------- Mobile phones larger than 400px wide ----------- */
-@media (min-width:400px) {
+/*---------- Mobile ----------*/
 
-.full-width-top {
-	float:left;
-	background-image: url('../img/header6.jpeg') ;
-	background-size: cover; 
-	height:400px;
-	width:100%;
+@media (max-width: 1088px) {
+	
+	body {
+		
+	}
+	
+	.full-width-top {
+		background:none;
+		height:auto;
+		margin:0 auto;
+		width:100%;
+	}
+	
+	.half-width1 {
+		margin:0 auto;
+		height:auto;
+		width:70%;
+}
+	
+	/* Plane & Text logo */
+	.logotop {
+		float:left;
+		margin: auto;
+    	width: 30%;
+		padding: 10px;
+	}
+	
+	.logo {
+		font-family: 'audiowideregular';
+		margin:0 auto;
+		float:left;
+		padding:0;
+	}
+	
+
+	.blue {
+		color:#2372B6;
+		font-family: 'audiowideregular';
+		margin:0 auto;
+	}
+
+	
+	/* Menu */
+	.half-width2 {
+		display:none;
+	}
+	
+	/* About */
+	.about {
+		padding:10px 0 10px 10px;
+	}
+	
+	
+	
+	/* Packages */
+	#packages .third{
+		background:#d9e6f2;
+		float:left;
+		height:auto;
+		margin:3px;
+		padding:30px;
+		width:100%;
+
 }
 
-/* ----------- Tablets larger than 768px wide ----------- */
-@media (min-width:768px) {
+	/* Footer */
+	
+	.contact {
+		display:none;
+	}
+	
+	.full-width-bottom {
+		padding:0;
+		float:left;
+		margin:auto;
+		width:100%
+}
 
-.full-width-top {
-	float:left;
-	background-image: url('../img/header6.jpeg') ;
-	background-size: cover; 
-	height:400px;
-	width:100%;
+	.half-width3 {
+}
+
+	.half-width4 {
+		float:left;
+		padding:20px;
+		margin:auto;
+		width:100%;
+}
+
+}
+
+/* Smaller devices */
+
+@media (max-width: 715px) {
+	
+	body {
+		
+	}
+	
+	.full-width-top {
+		background:none;
+		height:auto;
+		margin:0 auto;
+		width:100%;
+	}
+	
+	.half-width1 {
+		margin:0 auto;
+		height:auto;
+		width:100%;
+}
+	
+	/* Plane & Text logo */
+	.logotop {
+		float:left;
+		margin: auto;
+    	width: 20%;
+		padding: 10px;
+		display:none;
+	}
+	
+	.logo {
+		font-family: 'audiowideregular';
+		margin:0 auto;
+		float:left;
+		padding:0;
+	}
+	
+
+	.blue {
+		color:#2372B6;
+		font-family: 'audiowideregular';
+		margin:0 auto;
+	}
+
+	
+	/* Menu */
+	.half-width2 {
+		display:none;
+	}
+	
+	/* About */
+	.about {
+		padding:10px 0 10px 10px;
+	}
+	
+	
+	
+	/* Packages */
+	#packages .third{
+		background:#d9e6f2;
+		float:left;
+		height:auto;
+		margin:3px;
+		padding:30px;
+		width:100%;
+
+}
+
+	/* Footer */
+	
+	.contact {
+		display:none;
+	}
+	
+	.full-width-bottom {
+		padding:0;
+		float:left;
+		margin:auto;
+		width:100%
+}
+
+	.half-width3 {
+}
+
+	.half-width4 {
+		float:left;
+		padding:20px;
+		margin:auto;
+		width:100%;
+}
+
 }
 
 /* ==========================================================================
