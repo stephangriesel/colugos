@@ -126,6 +126,7 @@ img {
 /* unvisited link */
 a:link {
     color: #19334d;
+    text-decoration:none;
 }
 
 /* visited link */
