@@ -220,9 +220,16 @@ nav ul li {
 	width:100%;
 }
 
+#packages {
+	display:table;
+	float:none;
+}
+
 #packages .third{
 	background:#d9e6f2;
-	float:left;
+	border-left:solid;
+	display:table-cell;
+	float:none;
 	height:100%;
 	margin:3px;
 	padding:15px;
