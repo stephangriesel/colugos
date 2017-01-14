@@ -227,7 +227,7 @@ nav ul li {
 
 #packages .third{
 	background:#d9e6f2;
-	border-left:solid;
+	border-left:solid #FFFFFF;
 	display:table-cell;
 	float:none;
 	height:100%;
