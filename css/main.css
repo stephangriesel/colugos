@@ -237,11 +237,16 @@ nav ul li {
 	
 }
 
-/* Footer */
+/* Contact */
+
+#mc_embed_signup {
+	padding-bottom:30px;
+}
 
 .full-width-bottom {
 	/** padding:50px 0 50px 0; */
 	float:left;
+	padding-bottom:80px;
 }
 
 .half-width3 {
