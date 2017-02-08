@@ -239,10 +239,6 @@ nav ul li {
 
 /* Contact */
 
-#mc_embed_signup {
-	padding-bottom:30px;
-}
-
 .full-width-bottom {
 	/** padding:50px 0 50px 0; */
 	float:left;
@@ -257,7 +253,7 @@ nav ul li {
 
 .half-width4 {
 	float:left;
-	padding:40px 0 0 20px;
+	padding:0 0 0 20px;
 	width:45%;
 }
 
@@ -272,6 +268,10 @@ nav ul li {
 	border:8px solid #c7d9ea;
 	/* max-width:40%;
 	width:60%; */
+}
+
+#mc_embed_signup {
+	padding-bottom:30px;
 }
 
 /* ==========================================================================
